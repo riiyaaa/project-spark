@@ -109,6 +109,7 @@ body {
     border: 2px solid rgb(255, 252, 252);
     border-radius: 100%;
     box-sizing: border-box;
+    z-index: 9999;
 }
 
 .overview p a span::after {
@@ -123,6 +124,7 @@ body {
     border-bottom: 2px solid #fff;
     transform: rotate(-45deg);
     box-sizing: border-box;
+    z-index: 99999;
   }
 .overview p a span::before {
     position: absolute;
@@ -167,6 +169,7 @@ body {
 }
 
 /* wheel */
+
 text{
     font-family:Helvetica, Arial, sans-serif;
     font-size:11px;
@@ -174,32 +177,68 @@ text{
 }
 
 #chart{
-    position:relative;
-    width:500px;
+    position: relative;
+    width:50vw;
     height:500px;
-    top:100;
+    top: 100;
     left:50px;
     bottom: 20px;
 }
 
 #question{
     position: absolute;
-    width:400px;
-    height:500px;
-    top:0;
-    left:520px;
+    width: 50vw;
+    top: 900px;
+    left:550px;
+}
+
+#desc{
+  position: absolute;
+  top: 1000px;
+  left: 80px;
 }
 
 #question h1{
-    font-size: 50px;
-    font-weight: bold;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    top:50%;
-    -webkit-transform:translate(0,-50%);
-            transform:translate(0,-50%);
+  text-align: center;
+  justify-content: center;
+     font-size: 50px;
+     font-weight: bold;
+     color: #c3073f;
+     text-shadow: salmon 0 0 0.1em;
+     font-family: 'Caveat', cursive;
+     margin: 1rem 3rem;
+     top: 0;
+     padding: 0;
+     position: relative;
+     -webkit-transform:translate(0,-50%);
+             transform:translate(0,-50%);
+ 
+}
+
+
+#desc h3{   
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #c3073f;
+  text-shadow: lavenderblush 0 0 0.1em;
+  font-family: 'Caveat', cursive;
+  margin-left: 36rem;
+  margin-right: 240px;
+  top: 100; 
+  position: relative;
+   /* -webkit-transform:translate(-50%,-50%);
+          transform:translate(-50%,-50%);  */
+}
+
+#canvas {
+  position: relative;
+  z-index: -1;
+}
+
+svg {
+  position: relative;
+  z-index: 99999;
 }
 
 /* sharing btns */

@@ -60,11 +60,11 @@ function initCountDown() {
 //   });
 
 // scroll button
-document.querySelector(function() {
-    document.querySelector('a[href*=#]').addEventListener('click', function(e) {
-      e.preventDefault();
-      document.querySelector('html, body').animate({ scrollTop: document.querySelector(document.querySelector(this).attr('href')).offset().top}, 500, 'linear');
-    });
-  });
+// document.querySelector(function() {
+//     document.querySelector('a[href*=#]').addEventListener('click', function(e) {
+//       e.preventDefault();
+//       document.querySelector('html, body').animate({ scrollTop: document.querySelector(document.querySelector(this).attr('href')).offset().top}, 500, 'linear');
+//     });
+//   });
 
   
