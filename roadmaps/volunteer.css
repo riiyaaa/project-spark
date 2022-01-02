@@ -1,0 +1,132 @@
+.jumbotron{
+  
+    background-color: rgb(202, 152, 248);
+    background-image: url(./firebg.jpg);
+    height: auto;
+    
+    border-radius: 10px  ;
+    padding: 5em;
+    font-size: large;
+    color: white;
+
+}
+.breadcrumb{
+text-align: left;
+}
+.margin{
+    margin-left:10px;
+   
+}
+img{
+    border-radius: 50%;
+}
+.History{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   padding-left: 10rem;
+    flex-wrap: nowrap;
+    border: 1px wheat;
+    background-image: linear-gradient(white,wheat);
+    border-bottom: hidden;
+    height: 90%;
+    width: 80%;
+    box-shadow: 5px 5px gray;
+}
+.para{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10rem;
+    flex-wrap: nowrap;
+    color: whitesmoke;
+    background-image: url(./firebg.jpg);
+   
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+justify-content: center;
+    flex-wrap: nowrap;
+ margin-right: 24%;
+    height:40%;
+    
+   
+    padding:auto;
+    font-size: large;
+    
+    color:white ;
+   
+}    
+.end{
+    background-color: black;
+    height: 20%;
+    width: 40%;
+}
+body{
+    padding: 50px 0px 0px;
+    z-index: 0;
+    background-image: linear-gradient(lavenderblush,white,wheat,lavenderblush,black);
+    font-size: large;
+}
+.navbar-dark{
+   background-color: black;
+}
+
+
+
+@media (max-width: 425px){
+    .jumbotron{
+        padding-top: 2em;
+        padding-bottom: 1em;
+        padding-left:1em ;
+        padding-right: 0;
+    }
+.History{
+border: 0px;
+    border-width:100% ;
+    height: auto;
+    padding-right: 6px;
+    box-shadow: 0px 0px ;
+
+    
+}
+.para{
+    text-align: left;
+    padding-left: 0.25rem;
+    padding-right:0px;
+}
+.content{
+    padding-left: 5rem;
+    padding-right: 0px;
+}
+.margin{
+    margin-left: 5.7rem;
+}
+}
+@media(max-width: 1000px){
+    img{
+width:100%;
+height : auto;
+    }
+}
+    
+@media(max-width: 768px){
+    .jumbotron{
+        padding-top: 2em;
+        padding-bottom: 1em;
+        padding-left:1em ;
+        padding-right: 0;
+    }
+    .History{
+        padding-left: 20px;
+    }
+}
+img{
+    background-color: white;
+}

@@ -1,0 +1,97 @@
+
+text{
+    
+    
+        font-family:Helvetica, Arial, sans-serif;
+        color: white;
+        font-size:11px;
+        font-weight: bold;
+        pointer-events:none;
+        
+        
+        
+    }
+    #chart{
+        position:absolute;
+        width:500px;
+        height:500px;
+        top:80px;
+        left: 40px;
+       
+    }
+    #question{
+        position: absolute;
+        width:400px;
+        height:500px;
+        top:9%;
+        left:520px;
+      
+        
+       
+        
+    }
+    #question h1{
+
+      text-align: center;
+     justify-content: center;
+        font-size: 50px;
+        font-weight: bold;
+        color: lightpink;
+        font-family: 'Vujahday Script', cursive;
+        margin: 0;
+        top:50%;
+        border :2px;
+        padding:0 ;
+        position:absolute;
+       ;
+       
+       
+        
+        -webkit-transform:translate(0,-50%);
+                transform:translate(0,-50%);
+    }
+    .jumbotron{
+       text-align: center; 
+        border: 1px;
+       
+        width: 90rem;
+        height: 36rem;
+        background-image: url(./firebg.jpg);
+    }
+  .slide2{
+      text-align: center;
+      color: black;
+  }
+  .slide3{
+    text-align: center;
+      color: black;
+  }
+  .slide4{
+    text-align: center;
+      color: black;
+  }
+  .slide8{
+    text-align: center;
+      color: black;
+  }
+  .slide10{
+    text-align: center;
+      color: black;
+  }
+
+.head{
+   background-color:black;
+    width: 90rem;
+    height: 60px;
+    color: #EFC2C3;
+    text-shadow : 3px 8px 8px goldenrod;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder
+   
+
+}
+.head2{
+  
+  color: antiquewhite;
+}
