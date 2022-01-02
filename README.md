@@ -29,3 +29,16 @@ We have used the following technologies to build our website:
 - [Priya Mittal](https://github.com/Priiyaa)
 - [Aditi Agarwal](https://github.com/wasp0094)
 - [Vedant Sharma](https://github.com/VedantSharma11)
+
+## Video Preview
+
+
+https://user-images.githubusercontent.com/96445392/147879175-eb570a27-e65c-4964-8a19-a0d9f1aa2745.mp4
+
+## watch the full video at:- [youtubelink](https://youtu.be/jgV_sge3HE0)
+
+
+![collage](https://user-images.githubusercontent.com/96445392/147879369-fd856e35-1ea8-4f0c-9557-11367a2e7ddd.jpeg)
+
+
+
